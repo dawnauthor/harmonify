@@ -48,9 +48,9 @@ const Center = () => {
 					<img
 						className="w-10 h-10 rounded-full mr-4"
 						src={session?.user?.image}
-						alt=""
+						alt="Sign Out"
 					/>
-					<h2 className="text-white">{session?.user.name}</h2>
+					<h2 className="text-white">{session?.user.name} Sign Out</h2>
 					<ChevronDownIcon className="w-5 h-5 text-white" />
 				</div>
 			</header>
